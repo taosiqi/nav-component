@@ -1,0 +1,19 @@
+<!-- tab -->
+<view class='ui-cell tab'>
+    <block wx:for="{{support}}" wx:for-index="idx" wx:for-item="item" wx:key="itemId">
+        <view class='{{isactive==idx?"active":""}}' data-ppop='{{idx}}' bindtap='checkactive'>{{item.name}}</view>
+    </block>
+</view>
+<!-- view -->
+<view wx-if='{{isactive==0}}'>
+0
+</view>
+<view wx-if='{{isactive==1}}'>
+1
+</view>
+<view wx-if='{{isactive==2}}'>
+2
+</view>
+<view wx-if='{{isactive==3}}'>
+3
+</view>
