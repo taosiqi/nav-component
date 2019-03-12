@@ -1,0 +1,53 @@
+/* 顶部tab */
+
+.nav {
+    width: 100%;
+}
+
+.tab {
+    width: 100%;
+    white-space: nowrap;
+    box-sizing: border-box;
+    height: 100rpx;
+    background: #24a7ff;
+}
+
+.tab>view {
+    margin-left: 40rpx;
+    position: relative;
+    font-size: 26rpx;
+    line-height: 100rpx;
+    background: #24a7ff;
+    font-family: Adobe Heiti Std R;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tab>view:first-of-type {
+    margin-left: 39rpx;
+    overflow-x: visible;
+}
+
+.tab>view:after {
+    content: "";
+    width: 80%;
+    height: 6rpx;
+    background-color: transparent;
+    position: absolute;
+    left: 10%;
+    /* top: 62rpx; */
+    bottom: 0rpx;
+}
+
+.tab>view.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.tab>view.active:after {
+    background-color: #fff;
+}
+
+.active {
+    flex: none;
+}
