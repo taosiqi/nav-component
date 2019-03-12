@@ -1,6 +1,9 @@
 # nav-component
-tab导航栏
+tab导航栏，有两个
+
+第一个好像不能滑动的
+
+第二个可以滑动
 
 自用哈哈哈 写的超级烂~~~~
 
-![readme](taosiqi/nav-component/blob/master/readme.png)
